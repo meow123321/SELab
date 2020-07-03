@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OOg0JBw0UKofqb9MskaTkmcLjuz1SsbbT4eQNVfM+F7GMZdAYfFx87VxzZ1Ms1J457ZkRPJsAqDK4v0wLX61kw==",
+  "success": true,
+  "projectFilePath": "D:\\Facultate\\SEM2\\SE\\SELab\\SEClassroom\\AppLogic\\AppLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

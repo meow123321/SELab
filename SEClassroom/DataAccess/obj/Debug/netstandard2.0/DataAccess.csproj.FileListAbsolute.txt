@@ -1,0 +1,12 @@
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\bin\Debug\netstandard2.0\AppLogic.dll
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\bin\Debug\netstandard2.0\AppLogic.pdb
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+D:\Facultate\SEM2\SE\SELab\SEClassroom\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
