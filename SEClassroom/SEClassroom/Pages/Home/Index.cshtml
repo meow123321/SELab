@@ -1,0 +1,50 @@
+﻿@model IEnumerable<SEClassroom.AppLogic.Data.Announcement>
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row">
+    <div class="col">
+        <div>
+            <h1 class="display-4">Welcome</h1>
+
+
+            <div class="col">
+
+                <div>
+                    <h1 class="display-4">News</h1>
+                </div>
+
+                @if (User.IsInRole("Teacher") && User.IsInRole("Admin"))
+                {
+                    <a asp-action="Create" class="btn btn-succes">Add new announcement</a>
+                    <br />
+                    <br />
+                }
+                @if (User.IsInRole("Teacher") && User.IsInRole("Student"))
+                {
+                    <p>
+                        <a asp-area="" asp-controller="Course" asp-action="Index" class="btn btn-succes"> Course </a>
+                    </p>
+                }
+
+                @foreach (var item in Model)
+                {
+                    @Html.DisplayFor(modelItem => item.Date)
+                    <br />
+                    @Html.DisplayFor(modelItem => item.Text)
+                    <br />
+                    @if (User.IsInRole("Teacher") && User.IsInRole("Admin"))
+                    {
+                        <p>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-succes">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        </p>
+
+                    }
+                    <br />
+                    <br />
+                }
+            </div>
+        </div>
+

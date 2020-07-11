@@ -1,0 +1,23 @@
+﻿@model IEnumerable<SEClassroom.AppLogic.Data.Course>
+@{
+    ViewData["Title"] = "Courses";
+}
+
+
+<p>
+    <a asp-action="Create" class="btn btn-succes">Create Course</a>
+</p>
+
+
+@foreach (var item in Model)
+{
+    <div class="card bm-3">
+        @if (User.IsInRole("Teacher") && User.IsInRole("Admin"))
+        {
+            <div class="card-footer">
+                <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger">Delete</a>
+
+            </div>
+        }
+    </div>
+}

@@ -6,7 +6,7 @@ namespace SEClassroom.AppLogic.Data
 {
     public class Course
     {
-        public int ID { get; set; }
+        public Guid ID { get; set; }
         public string Name { get; set; }
         public Teacher Teacher { get; set; }
         public ICollection<Student> Students { get; set; }

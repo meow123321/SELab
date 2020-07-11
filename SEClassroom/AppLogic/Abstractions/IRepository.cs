@@ -6,9 +6,9 @@ namespace SEClassroom.AppLogic.Abstractions
 {
     public interface IRepository<T>
     {
-        IEnumerable<T> Getall();
-        T Add(T itemtoadd);
-        T Update(T itemtoupdate);
-        bool Delete(T itemtodelete);
+       /* IEnumerable<T> GetAll();
+        T Add(T itemToAdd);
+        T Update(T itemToUpdate);
+        bool Delete(T itemToDelete);*/
     }
 }
